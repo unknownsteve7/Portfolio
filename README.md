@@ -8,7 +8,7 @@ Let’s build. Let’s vibe. Let’s win. 🚀
 
 ## 🔮 Live Demo
 
-👉 [m0h4n.vercel.app]
+👉 [nagamohan765@gmail.com](mailto:nagamohan765@gmail.com)
 ---
 
 ## 📁 Project Structure
