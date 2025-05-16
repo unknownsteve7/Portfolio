@@ -8,9 +8,7 @@ Let’s build. Let’s vibe. Let’s win. 🚀
 
 ## 🔮 Live Demo
 
-👉 m0h4n.vercel.app 
-_Replace with your actual Vercel link_
-
+👉 m0h4n.vercel.app
 ---
 
 ## 📁 Project Structure
