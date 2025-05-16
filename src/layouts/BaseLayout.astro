@@ -1,0 +1,26 @@
+---
+import Navbar from "../components/Navbar.astro";
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>m0h4n</title>
+        <meta
+            name="description"
+            content="Mohan's portfolio — Web developer and designer with a creative edge"
+        />
+        <meta name="author" content="Mohan" />
+        <link rel="icon" type="image/x-icon" href="favicon.svg" />
+    </head>
+
+    <body>
+        <Navbar />
+        <main class="pt-auto">
+            <slot />
+        </main>
+    </body>
+</html>

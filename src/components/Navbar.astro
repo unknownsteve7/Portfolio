@@ -1,0 +1,39 @@
+---
+// src/components/Navbar.astro
+---
+<head>
+        <script src="//unpkg.com/alpinejs" defer></script>
+
+</head>
+
+<nav x-data="{ open: false }" class="fixed top-2 left-2 right-2 z-50 rounded-lg backdrop-blur-sm bg-black/20 border-b border-white/10 shadow-lg rounded-b-lg">
+  <div class="max-w-10xl mx-auto ml-10 mt-2 mb-2 mr-20 px-4 py-3 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="/" class="text-3xl font-bold text-white tracking-tight">
+      m0h4n<span class="text-orange-900">.dev</span>
+    </a>
+
+    <!-- Desktop Nav Links -->
+    <ul class="hidden md:flex gap-6 text-sm text-gray-300 font-medium">
+      <li><a href="#about" class="hover:text-white transition">About</a></li>
+      <li><a href="#Projects" class="hover:text-white transition">Projects</a></li>
+      <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+    </ul>
+
+    <!-- Mobile Menu Toggle Button -->
+    <div class="md:hidden">
+      <button @click="open = !open" class="text-white focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 hover:text-white transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h5M4 12h8M4 18h12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu (Dropdown) -->
+  <ul x-show="open" x-transition class="md:hidden flex flex-col items-center gap-4 py-4 text-sm text-gray-200 font-medium bg-black/70 rounded-b-lg">
+    <li><a href="#about" class="hover:text-white transition">About</a></li>
+    <li><a href="#Projects" class="hover:text-white transition">Projects</a></li>
+    <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+  </ul>
+</nav>

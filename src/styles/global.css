@@ -1,0 +1,38 @@
+@import "tailwindcss";
+html,body{
+    -ms-overflow-style: none;  /* IE and Edge */
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+/* Chrome, Edge */
+body::-webkit-scrollbar {
+    width: 0px;
+  display: none;
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Firefox */
+body {
+      -ms-overflow-style: none; /* IE & Edge */
+        scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.i{
+    width: 100px;
+    height: 100px;
+    margin-right: -26px;
+    margin-top: -170px;
+    margin-bottom: 90px;
+}
+#r{
+    margin-top: -160px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}

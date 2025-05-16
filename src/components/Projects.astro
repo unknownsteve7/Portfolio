@@ -1,0 +1,44 @@
+---
+// src/components/Projects.astro
+const projects = [
+  {
+    title: "SoulInk — Online Diary App",
+    description: "A private online diary built with Next.js, Tailwind, MongoDB, and JWT. Full auth, dashboard, and mood tracker.",
+    tech: ["Next.js", "Tailwind", "MongoDB", "JWT"],
+    link: "https://github.com/unknownsteve7/soulink",
+  },
+  {
+    title: "SkillGrader — AI Learning Guide",
+    description: "AI-generated personalized roadmaps for different tech domains. Built with Astro, OpenAI, and Tailwind.",
+    tech: ["Astro", "OpenAI API", "TailwindCSS"],
+    link: "https://github.com/unknownsteve7/skillgrader",
+  },
+  {
+    title: "MoodTunes — AI Music Therapy",
+    description: "A mood-based music therapy app with emotional recognition. React + Python backend.",
+    tech: ["React", "Flask", "Spotify API", "Emotion AI"],
+    link: "#",
+  },
+];
+---
+
+<section id="Projects" class="py-20 bg-gradient-to-r from-[#bfbfbf] to-[#808080]  px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-black mb-4">Projects</h2>
+    <p class="text-black-400 mb-12 text-lg">Here’s what I’ve been crafting with love, logic, and late nights </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {projects.map(project => (
+        <a href={project.link} target="_blank" class="group relative bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:border-[#e67300] hover:scale-[1.02] transition-all duration-300">
+          <h3 class="text-xl font-semibold text-white mb-2 group-hover:text-[#e67300] transition">{project.title}</h3>
+          <p class="text-blue-800 text-sm mb-4">{project.description}</p>
+          <div class="flex flex-wrap gap-2">
+            {project.tech.map(tech => (
+              <span class="text-xs px-3 py-1 rounded-full bg-black-1000/20 text-red-1000 border border-red-500">{tech}</span>
+            ))}
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,48 @@
+---
+const skills = [
+  { name: "React", src: "react.svg" },
+  { name: "Next.js", src: "nextdotjs.svg" },
+  { name: "TypeScript", src: "typescript.svg" },
+  { name: "JavaScript", src: "javascript.svg" },
+  { name: "HTML5", src: "html5.svg"},
+  { name: "CSS3", src: "css3.svg" },
+  { name: "Tailwind", src: "tailwindcss.svg"},
+  { name: "Material UI", src: "mui.svg" },
+  { name: "Bootstrap", src: "bootstrap.svg" },
+  { name: "Node.js", src: "nodedotjs.svg" },
+  { name: "Express", src: "express.svg" },
+  { name: "PHP", src: "php.svg" },
+  { name: "Python", src: "python.svg" },
+  { name: "Flask", src: "flask.svg" },
+  { name: "MongoDB", src: "mongodb.svg" },
+  { name: "MySQL", src: "mysql.svg" },
+  { name: "Firebase", src: "firebase.svg" },
+  { name: "Vercel", src: "vercel.svg" },
+  { name: "OpenAI", src: "openai.svg" },
+  { name: "Git", src: "git.svg" },
+  { name: "Postman", src: "/postman.svg" },
+];
+---
+<section class="py-24 bg-gradient-to-r from-[#bfbfbf] to-[#808080] text-black">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-bold mb-12">Skills</h2>
+    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-7 gap-6 place-items-center">
+      {skills.map((skill, index) => (
+        <div
+          class="bg-white/5 border border-black/10 p-4 rounded-xl backdrop-blur-sm hover:scale-110 hover:border-black-500 transition"
+        >
+          <img
+            src={`/skills/${skill.src}`}
+            alt={skill.name}
+            class="w-10 h-10 object-contain mx-auto"
+          />
+          <p
+            class="mt-2 text-sm font-medium"
+            style="color: white;">
+            {skill.name}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
