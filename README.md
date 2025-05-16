@@ -1,48 +1,90 @@
-# Astro Starter Kit: Basics
+# 💫 Mohan’s Portfolio — Astro Designer + Developer Site
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my personal portfolio site — built with ⚡ **Astro**, styled with 🌈 **Tailwind CSS**, and deployed on ☁️ **Vercel**. This portfolio showcases my projects, skills, and a vibe that's equal parts code & creativity.  
+Let’s build. Let’s vibe. Let’s win. 🚀
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 🔮 Live Demo
 
-## 🚀 Project Structure
+👉 [Click here to explore the portfolio](https://your-vercel-deployment.vercel.app)  
+_Replace with your actual Vercel link_
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
+## 📁 Project Structure
+
+├── public/ # Static assets like images & icons
+│ └── favicon.svg
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│ ├── components/ # Reusable UI components (Navbar, Projects, etc.)
+│ ├── layouts/ # Layout wrapper for pages
+│ │ └── Layout.astro
+│ └── pages/ # Astro pages (index, about, projects, etc.)
+│ ├── index.astro
+│ └── projects.astro
+├── styles/ # Custom CSS or Tailwind config
 └── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## 🚀 Tech Stack
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- ⚛️ **Astro** — static site builder with blazing performance
+- 🎨 **Tailwind CSS** — utility-first styling with full custom control
+- 🌐 **Vercel** — serverless hosting with CI/CD baked in
+- 🔮 Optional: **Framer Motion / GSAP** for animations
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🧞‍♂️ Commands
+
+Run these from the root of the project:
+
+| Command           | Action                               |
+|------------------|--------------------------------------|
+| `npm install`     | Install dependencies                 |
+| `npm run dev`     | Run dev server at `localhost:4321`  |
+| `npm run build`   | Build site for production            |
+| `npm run preview` | Preview production build locally     |
+
+---
+
+## 🧠 Features
+
+- ⚡ Responsive design across all devices
+- ✨ Smooth hover effects and glassmorphism
+- 🧩 Modular and component-based architecture
+- 📁 Easily customizable and extensible
+
+---
+
+## 🛠️ Customization
+
+You can personalize this site by editing:
+
+- `src/pages/index.astro` — landing content
+- `src/components/Projects.astro` — projects section
+- `src/components/Navbar.astro` — navigation links
+- `public/` — replace images, icons, and favicon
+
+---
+
+## 🎯 Goals
+
+- Impress recruiters with clean, modern design  
+- Showcase technical and design skills  
+- Drive traffic to GitHub, resume, and LinkedIn  
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: [nagamohan765@gmail.com](mailto:nagamohan765@gmail.com)  
+- 🧑‍💻 GitHub: [unknownsteve7](https://github.com/unknownsteve7)  
+- 💼 LinkedIn: https://www.linkedin.com/in/madicharla-naga-mohan-34a007349/
+
+
+**Let’s go live, let’s go bold. 💜**
