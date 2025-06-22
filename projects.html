@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohan | Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ <style>
+  /* Hide scrollbar but keep scroll functionality */
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  body::-webkit-scrollbar:vertical {
+  display: none;
+}
+</style>
+
+</head>
+<body class="bg-[#f9f9f9] text-gray-800 font-sans">
+  <div class="max-w-screen-xl mx-auto px-6 sm:px-12">
+    <!-- Navbar -->
+    <header class="flex flex-row items-center py-6">
+      <div class="mr-6">
+        <a href="/" class="font-extrabold text-sm uppercase tracking-widest hover:text-red-600">Mohan</a>
+      </div>
+      <nav>
+        <ul class="flex flex-row">
+          <li class="ml-5"><a href="projects.html" class="uppercase text-xs hover:text-red-600">Projects</a></li>
+          <li class="ml-5"><a href="/blog.html" class="uppercase text-xs hover:text-red-600">Blog</a></li>
+          <li class="ml-5"><a href="/contact.html" class="uppercase text-xs hover:text-red-600">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-10">
+      <h1 class="text-3xl font-extrabold uppercase mb-4">Projects</h1>
+      <hr class="w-full border-t-2 border-gray-300 mb-10">
+
+      <div class="space-y-12">
+        <!-- Project Cards -->
+        <div class="group relative flex justify-between items-center gap-8 cursor-pointer"
+          data-link="https://mohan-data-netflix-dashboard.streamlit.app/">
+          <h1 class="text-6xl font-extrabold uppercase text-gray-800 transition-all duration-300 group-hover:text-5xl">Netflix</h1>
+          <h2 class="text-3xl font-bold uppercase text-gray-600 transition-all duration-300 group-hover:text-2xl">Dashboard & Streamlit</h2>
+        </div>
+        <hr class="w-full border-t-2 border-gray-300">
+
+        <div class="group relative flex justify-between items-center gap-8 cursor-pointer"
+          data-link="https://github.com/unknownsteve7/Retail_Dashboard">
+          <h1 class="text-6xl font-extrabold uppercase text-gray-800 transition-all duration-300 group-hover:text-5xl">Retail</h1>
+          <h2 class="text-3xl font-bold uppercase text-gray-600 transition-all duration-300 group-hover:text-2xl">Excel & Dashboard</h2>
+        </div>
+        <hr class="w-full border-t-2 border-gray-300">
+
+        <div class="group relative flex justify-between items-center gap-8 cursor-pointer"
+          data-link="https://github.com/unknownsteve7/Indian-Startup-Dashboard">
+          <h1 class="text-6xl font-extrabold uppercase text-gray-800 transition-all duration-300 group-hover:text-5xl">Indian Startup</h1>
+          <h2 class="text-3xl font-bold uppercase text-gray-600 transition-all duration-300 group-hover:text-2xl">Power BI & Dashboard</h2>
+        </div>
+        <hr class="w-full border-t-2 border-gray-300">
+
+        <div class="group relative flex justify-between items-center gap-8 cursor-pointer"
+          data-link="https://github.com/unknownsteve7/WebScraping_Stocks">
+          <h1 class="text-6xl font-extrabold uppercase text-gray-800 transition-all duration-300 group-hover:text-5xl">Scraper</h1>
+          <h2 class="text-3xl font-bold uppercase text-gray-600 transition-all duration-300 group-hover:text-2xl">Python & BeautifulSoup4</h2>
+        </div>
+        <hr class="w-full border-t-2 border-gray-300">
+
+         <div class="group relative flex justify-between items-center gap-8 cursor-pointer"
+         
+         data-link="https://mohan-data-netflix-recommender.streamlit.app/">
+          <h1 class="text-6xl font-extrabold uppercase text-gray-800 transition-all duration-300 group-hover:text-5xl">Netflix</h1></a>
+          <h2 class="text-3xl font-bold uppercase text-gray-600 transition-all duration-300 group-hover:text-2xl">Recommender</h2>
+        </div>
+       
+      </div>
+
+      
+
+      <!-- Floating View Button -->
+    </main>
+  </div>
+
+  <!-- Scripts -->
+   <script>
+    const link = document.querySelectorAll('.group');
+    link.forEach(item => {
+      item.addEventListener('click', () => {
+        const link = item.getAttribute('data-link');
+        if (link) {
+          window.open(link, '_blank');
+        }
+
+      });
+    });
+   </script>
+  
+</body>
+</html>
