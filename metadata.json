@@ -1,0 +1,5 @@
+{
+  "name": "Ultimate Animated Portfolio",
+  "description": "A fully animated personal portfolio website built with React and Tailwind CSS, featuring sections for experience, skills, projects, and a unique draggable contact card.",
+  "requestFramePermissions": []
+}
