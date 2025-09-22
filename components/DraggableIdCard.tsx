@@ -43,7 +43,7 @@ const DraggableIdCard: React.FC = () => {
                 >
                     <div className="w-1/3 flex items-center justify-center">
                         <img
-                            src="/public/mohan.jpg"
+                            src="/mohan.jpg"
                             alt="Naga Mohan"
                             className="w-24 h-24 object-cover rounded-md border-2 border-white"
                         />
