@@ -217,6 +217,8 @@ export const testimonialsData: Testimonial[] = [
 export const eventsData: EventItem[] = [
     { date: 'Sep 2025', title: 'Amaravati Quantum Valley Internal Hackathon 2025', description: 'Participated with a team of 6 for developing an Quantum Ml-powered Fraud Detection Prototype.', icon: RocketLaunchIcon },
     { date: 'Ongoing', title: 'Smart India Hackathon 2025', description: 'Participated with a team to develop an innovative solution Cattle Breed Classification Based in ML', icon: MegaphoneIcon },
+        { date : 'Sep 25 2025', title: 'Innomatics 24 Hour Hackathon', description: 'Secured 2nd place in a 24-hour hackathon organized by Innomatics Research Labs, focusing on rapid prototyping and innovative solutions.', icon: ChatBubbleBottomCenterTextIcon }
+
     ];
 
 export const socialLinksData: SocialLink[] = [
