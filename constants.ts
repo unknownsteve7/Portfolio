@@ -115,7 +115,7 @@ export const projectsData: Project[] = [
     {
     title: "AI Resume Relevance Checker",
     category: "Development",
-    image: "/fuo-chairs.png",
+    image: "/Innomatics.png",
     description: "Stramlit Dashboard for Innomatics Hackathon",
     tags: ["Streamlit", "CSS", "Dashboard", "Hackathon"],
     liveLink: "https://resume-analyzer-blast.streamlit.app/",
