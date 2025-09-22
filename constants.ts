@@ -106,7 +106,7 @@ export const projectsData: Project[] = [
   {
     title: "Fuo Chairs",
     category: "Development",
-    image: "public/fuo-chairs.png",
+    image: "/fuo-chairs.png",
     description: "A sleek and modern chair design for the Fuo brand.",
     tags: ["React", "Tailwind CSS", "TypeScript", "Netlify"],
     liveLink: "https://fuorio.netlify.app/",
@@ -115,7 +115,7 @@ export const projectsData: Project[] = [
   {
     title: "Earth",
     category: "Development",
-    image: "public/earth.png",
+    image: "/earth.png",
     description: "An Animated Earth Component created with React and Three.js.",
     tags: ["JavaScript", "React"],
     liveLink: "https://serene-earth.netlify.app/",
@@ -124,14 +124,14 @@ export const projectsData: Project[] = [
   {
     title: "VisionixAI",
     category: "Analysis",
-    image: "public/VisionixAI.png",
+    image: "/VisionixAI.png",
     description: "A zone-based computer vision platform that uses CCTV feeds to detect presence in configurable room zones and trigger automation.",
     tags: ["JavaScript", "Python", "YOLO/MediaPipe", "CCTV integration"],
   },
   {
     title: "Sanchara Admin Dashboard",
     category: "Analysis",
-    image: "public/sanchara.png",
+    image: "/sanchara.png",
     description: "A privacy-first travel data app powering NATPAC with rich analytics and real-time KPIs.",
     tags: ["Power BI", "Data Visualization", "Dashboard", "Analytics"],
     repoLink: "https://github.com/unknownsteve7/Sanchara-Admin-Dashboard",
@@ -139,7 +139,7 @@ export const projectsData: Project[] = [
   {
     title: "Foreign Nationals Grievance System",
     category: "Development",
-    image: "public/Foreign.png",
+    image: "/Foreign.png",
     description: "A web portal for the police department of Satya Sai district to manage data and grievances of foreign nationals.",
     tags: ["React JS", "FastAPI", "MySQL", "Tailwind CSS"],
     liveLink: "https://satya-sai-district-police.vercel.app",
@@ -147,7 +147,7 @@ export const projectsData: Project[] = [
   {
     title: "Retail Sales Dashboard",
     category: "Analysis",
-    image: "public/xlx.png",
+    image: "/xlx.png",
     description: "An interactive Excel dashboard analyzing retail sales trends, revenue distribution, and product performance.",
     tags: ["Excel", "Data Visualization", "Dashboard"],
     repoLink: "https://github.com/unknownsteve7/Retail_Dashboard",
@@ -155,7 +155,7 @@ export const projectsData: Project[] = [
   {
     title: "Netflix Recommendation System",
     category: "Analysis",
-    image: "public/Recommend.png",
+    image: "/Recommend.png",
     description: "A Python-based recommendation system that suggests movies and shows to users using collaborative filtering techniques.",
     tags: ["Python", "Pandas", "Cosine Similarity", "Machine Learning"],
     repoLink: "https://github.com/unknownsteve7/Netflix_Recommendation",
@@ -164,7 +164,7 @@ export const projectsData: Project[] = [
   {
     title: "Netflix Analytics Dashboard",
     category: "Analysis",
-    image: "public/Dashboard.png",
+    image: "/Dashboard.png",
     description: "A Python-based dashboard that provides insights into Netflix viewing patterns and trends.",
     tags: ["Python", "Pandas", "Data Visualization", "Machine Learning"],
     repoLink: "https://github.com/unknownsteve7/Netflix-dashboard",
@@ -173,7 +173,7 @@ export const projectsData: Project[] = [
   {
     title: "Indian Startup Analysis",
     category: "Analysis",
-    image: "public/Indian_Startup.jpeg",
+    image: "/Indian_Startup.jpeg",
     description: "A Power BI dashboard analyzing Indian startup funding data, uncovering patterns in investments, sectors, and growth trends.",
     tags: ["Power BI", "Dashboard", "Data Visualization"],
     repoLink: "https://github.com/unknownsteve7/Indian-Startup-Dashboard",
@@ -181,7 +181,7 @@ export const projectsData: Project[] = [
   {
     title: "Foreign Visitor Portal",
     category: "Development",
-    image: "public/Visitor.png",
+    image: "/Visitor.png",
     description: "A web portal designed for foreign visitors to register their stay and provide necessary details to the police department of Satya Sai district.",
     tags: ["React JS", "FastAPI", "MySQL", "Tailwind CSS"],
     liveLink: "https://satyasaiforeignvisitor.vercel.app",
