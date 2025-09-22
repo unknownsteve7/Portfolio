@@ -112,6 +112,15 @@ export const projectsData: Project[] = [
     liveLink: "https://fuorio.netlify.app/",
     repoLink: "https://github.com/unknownsteve7/Fuo",
   },
+    {
+    title: "AI Resume Relevance Checker",
+    category: "Development",
+    image: "/fuo-chairs.png",
+    description: "Stramlit Dashboard for Innomatics Hackathon",
+    tags: ["Streamlit", "CSS", "Dashboard", "Hackathon"],
+    liveLink: "https://resume-analyzer-blast.streamlit.app/",
+    repoLink: "https://github.com/unknownsteve7/Innomatics_Frontend",
+  },
   {
     title: "Earth",
     category: "Development",
