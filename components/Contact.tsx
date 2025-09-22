@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     setStatus("Sending...");
 
     try {
-      const res = await fetch("https://portfoliobackend-production-2fdc.up.railway.app//send-email", {
+      const res = await fetch("https://portfoliobackend-production-2fdc.up.railway.app/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
