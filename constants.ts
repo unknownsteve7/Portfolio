@@ -205,6 +205,13 @@ export const testimonialsData: Testimonial[] = [
         role: 'UI/UX Designer, Freelance',
         avatar: 'https://picsum.photos/seed/avatar1/100/100'
     },
+     {
+        quote: 'As an AI engineer, I deal with logic and data — Mohan brought the design and interactivity that turned it into a product users actually love.',
+        name: 'Anand',
+        role: 'AI Engineer,Backend Developer @ Shraddha',
+        avatar: 'https://picsum.photos/seed/avatar3/100/100'
+    },
+    
     {
         quote: 'The insights Mohan provided from our data were invaluable. He has a unique talent for making complex information understandable and actionable.',
         name: 'Vardhan',
