@@ -161,6 +161,7 @@ export const projectsData: Project[] = [
     description: "A web portal for the police department of Satya Sai district to manage data and grievances of foreign nationals.",
     tags: ["React JS", "FastAPI", "MySQL", "Tailwind CSS"],
     liveLink: "https://satya-sai-district-police.vercel.app",
+      repoLink: "https://github.com/unknownsteve7/Satya-Sai-District-Police",
   },
   {
     title: "Retail Sales Dashboard",
