@@ -103,6 +103,15 @@ export const skillsData: Skill[] = [
 
 
 export const projectsData: Project[] = [
+    {
+    title: "Hostel Management System",
+    category: "Development",
+    image: "/fuo-chairs.png",
+    description: "Sanskriti School of Engineering",
+    tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"],
+    liveLink: "https://sanskritischoolofengineeringhostel.vercel.app/",
+    repoLink: "https://github.com/unknownsteve7/HMS",
+  },
   {
     title: "Fuo Chairs",
     category: "Development",
