@@ -106,7 +106,7 @@ export const projectsData: Project[] = [
     {
     title: "Hostel Management System",
     category: "Development",
-    image: "/fuo-chairs.png",
+    image: "/SSE.png",
     description: "Sanskriti School of Engineering",
     tags: ["React", "Tailwind CSS", "JavaScript", "Vercel"],
     liveLink: "https://sanskritischoolofengineeringhostel.vercel.app/",
