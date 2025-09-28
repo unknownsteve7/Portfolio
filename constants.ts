@@ -204,6 +204,7 @@ export const projectsData: Project[] = [
     description: "A web portal designed for foreign visitors to register their stay and provide necessary details to the police department of Satya Sai district.",
     tags: ["React JS", "FastAPI", "MySQL", "Tailwind CSS"],
     liveLink: "https://satyasaiforeignvisitor.vercel.app",
+      repoLink: "https://github.com/unknownsteve7/Satya-Sai-Visitor-Portal",
   },
 ];
 
