@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
                 I build beautiful, responsive web applications and uncover stories hidden in data. Welcome to my digital space where creativity meets code.
             </motion.p>
             <motion.a
-                href="public/RESUME.pdf"
+                href="/RESUME.pdf"
                 download
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
                 className="relative inline-block px-8 py-3 font-semibold text-white overflow-hidden border border-gray-500 rounded-lg group hover:text-black"
             >
                 <span className="absolute top-0 left-0 w-full h-full bg-white transition-transform duration-300 ease-in-out transform -translate-x-full group-hover:translate-x-0"></span>
-                <span className="relative z-10">Download CV</span>
+                <span className="relative z-10">Download Resume</span>
             </motion.a>
         </section>
     );
