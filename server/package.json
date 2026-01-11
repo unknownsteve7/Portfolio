@@ -1,0 +1,12 @@
+{
+    "name": "portfolio-mailing-server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "nodemailer": "^6.10.0"
+    }
+}
