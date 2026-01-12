@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function Projects() {
-    const [filter, setFilter] = useState("All");
+    const [filter, setFilter] = useState("Development");
 
     // Scroll to top on mount
     useEffect(() => {
@@ -12,7 +12,7 @@ export default function Projects() {
     const projects = [
         {
             title: "AcademixAI",
-            tag: "AI & Education",
+            tag: "Development",
             image: "/AcademixAI.png",
             description: "A comprehensive educational management platform featuring AI-powered mind map generation, algorithmic exam seating, and automated hall ticket management.",
             technologies: ["React", "FastAPI", "Python", "Gemini AI", "PostgreSQL"],
@@ -121,9 +121,11 @@ export default function Projects() {
         }
     ];
 
-    const filteredProjects = filter === "All"
-        ? projects
-        : projects.filter(p => p.tag.includes(filter) || p.technologies.some(t => t.includes(filter)));
+    const filteredProjects = projects.filter(p =>
+        p.tag.includes(filter) ||
+        (filter === "Data" && p.tag.includes("Data")) ||
+        p.technologies.some(t => t.includes(filter))
+    );
 
     const filters = ["Development", "Data", "Analysis"];
 
