@@ -11,6 +11,15 @@ export default function Projects() {
 
     const projects = [
         {
+            title: "DOT",
+            tag: "Development",
+            image: "/dot.png",
+            description: "Dot is a Personal Studio designed to help you enter and maintain a flow state. We stripped away the boxes, the grids, and the admin work of productivity to leave only you and your focus.",
+            technologies: ["React", "Node.js", "Express", "PostgreSQL"],
+            link: "https://dot.nagamohan.me",
+            github: "https://github.com/unknownsteve7/Dot"
+        },
+        {
             title: "AcademixAI",
             tag: "Development",
             image: "/AcademixAI.png",
@@ -220,3 +229,4 @@ export default function Projects() {
         </section>
     );
 }
+
