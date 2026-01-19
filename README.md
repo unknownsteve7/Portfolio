@@ -8,7 +8,7 @@ LinkedIn: https://in.linkedin.com/in/nagamohan765
 
 ## About Me
 
-I’m **Madicharla Naga Mohan**, a frontend developer with strengths in building intuitive, responsive web interfaces and a solid foundation in data science fundamentals. I focus on writing clean code, optimizing performance, and delivering solutions that solve real user needs. I am currently pursuing **B.Tech in Computer Science**.
+I’m **Madicharla Naga Mohan**, a frontend developer with strengths in building intuitive, responsive web interfaces and a solid foundation in data science fundamentals. I focus on writing clean code, optimizing performance, and delivering solutions that solve real user needs. I am currently pursuing **3rd year B.Tech in Computer Science**.
 
 ## Skills
 
